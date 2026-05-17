@@ -1,0 +1,20 @@
+{
+  "config": {
+    "max_parallel": 8,
+    "retry_count": 3,
+    "download_timeout_minutes": 15,
+    "cleanup_every_minutes": 180
+  },
+  "jobs": [
+    {
+      "sql": "daily_report.sql",
+      "time": "08:30",
+      "output_folder": "C:/path/to/output/reports"
+    },
+    {
+      "sql": "weekly_summary.sql",
+      "time": "18:00",
+      "output_folder": "C:/path/to/output/reports"
+    }
+  ]
+}

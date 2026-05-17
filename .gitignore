@@ -1,0 +1,30 @@
+__pycache__/
+*.py[cod]
+
+# Logs
+logs/
+*.log
+summary_*.csv
+
+# Temp
+bq_temp_downloads/
+TEMP_*.csv
+
+# Envs
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local secrets
+.env
+*.env
+
+# Output directories are user-specific
+output/
